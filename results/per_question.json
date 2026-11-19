@@ -1,0 +1,1502 @@
+[
+ {
+  "question": "Which serial device does TELEM1 map to on the Holybro Pixhawk 6X?",
+  "type": "spec",
+  "page": "flight_controller/pixhawk6x.md",
+  "key": "/dev/ttyS6",
+  "bm25": 0,
+  "dense": 6,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk6x.md",
+  "top_title": "Holybro Pixhawk 6X > Serial Port Mapping",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/pixhawk6x/pixhawk6x_standard_set.jpg"
+   ]
+  }
+ },
+ {
+  "question": "On a Pixhawk 4, where do I plug the telemetry radio?",
+  "type": "wiring",
+  "page": "assembly/quick_start_pixhawk4.md",
+  "key": "TELEM1",
+  "bm25": 5,
+  "dense": 5,
+  "hybrid": 1,
+  "rerank": 1,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_pixhawk4_mini.md",
+  "top_title": "_Pixhawk 4 Mini_ Wiring Quick Start > Telemetry Radio (Optional)",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_telemetry.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk4/pixhawk4_telemetry_radio.jpg"
+   ]
+  }
+ },
+ {
+  "question": "The EKF reports height estimate divergence. What is the most likely cause?",
+  "type": "fault",
+  "page": "advanced_config/tuning_the_ecl_ekf.md",
+  "key": "clipping and/or aliasing",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 3,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/tuning_the_ecl_ekf.md",
+  "top_title": "Using PX4's Navigation Filter (EKF2) > What should I do if the height estimate is diverging?",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/ecl/test_ratios_-_successful.png"
+   ]
+  }
+ },
+ {
+  "question": "How long must the arming button be held down to arm?",
+  "type": "procedure",
+  "page": "advanced_config/prearm_arm_disarm.md",
+  "key": "one second",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 7,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/prearm_arm_disarm.md",
+  "top_title": "Arm, Disarm, Prearm Configuration > Arming Button/Switch",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flying/qgc_arming_checks_ui.png"
+   ]
+  }
+ },
+ {
+  "question": "What is the maximum input voltage of the Pixhawk Mini?",
+  "type": "spec",
+  "page": "flight_controller/pixhawk_mini.md",
+  "key": "45V",
+  "bm25": null,
+  "dense": null,
+  "hybrid": 9,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "flight_controller/pixhawk6c_mini.md",
+  "top_title": "Holybro Pixhawk 6C Mini > Voltage Ratings",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_interfaces.png"
+   ]
+  }
+ },
+ {
+  "question": "How do I build the bootloader for an FMUv6X board?",
+  "type": "procedure",
+  "page": "advanced_config/bootloader_update.md",
+  "key": "make px4_fmu-v6x_bootloader",
+  "bm25": 0,
+  "dense": 1,
+  "hybrid": 0,
+  "rerank": 2,
+  "answer_ok": true,
+  "top_page": "advanced_config/bootloader_update.md",
+  "top_title": "Bootloader Update",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/raccoonlab/fmuv6x.png"
+   ]
+  }
+ },
+ {
+  "question": "Which make target builds the firmware for the Cube Orange?",
+  "type": "procedure",
+  "page": "flight_controller/cubepilot_cube_orange.md",
+  "key": "make cubepilot_cubeorange",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/cubepilot_cube_orange.md",
+  "top_title": "CubePilot Cube Orange Flight Controller > Building Firmware",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/cube/orangeplus/cubepilot_cube_orangeplus_standard_set.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which IMU is fitted on the Kakute H7 v2?",
+  "type": "spec",
+  "page": "flight_controller/kakuteh7v2.md",
+  "key": "BMI270",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "flight_controller/kakuteh7v2.md",
+  "top_title": "Holybro Kakute H7 V2",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/kakuteh7v2/kakuteh7v2_top.png"
+   ]
+  }
+ },
+ {
+  "question": "Which GPS module is recommended for the CUAV V5 nano?",
+  "type": "wiring",
+  "page": "assembly/quick_start_cuav_v5_nano.md",
+  "key": "Neo v2 GPS",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 7,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "flight_controller/cuav_v5_nano.md",
+  "top_title": "CUAV V5 nano Autopilot > Neo v2.0 GPS not compatible with other devices",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/cuav_v5_nano/connection/v5_nano_quickstart_07.png"
+   ]
+  }
+ },
+ {
+  "question": "The GPS compass is mounted rotated. Which rotations can PX4 detect automatically?",
+  "type": "procedure",
+  "page": "assembly/mount_gps_compass.md",
+  "key": "multiples of 45",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": null,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "assembly/mount_gps_compass.md",
+  "top_title": "Mounting a Compass (or GNSS/Compass) > Compass Orientation",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pixhawk4/pixhawk4_compass_gps.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk_mini/pixhawk_mini_compass_drawing.png"
+   ]
+  }
+ },
+ {
+  "question": "Which parameters set the GPS antenna position relative to the centre of gravity?",
+  "type": "parameter",
+  "page": "assembly/mount_gps_compass.md",
+  "key": "EKF2_GPS_POS_X",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 6,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/mount_gps_compass.md",
+  "top_title": "Mounting a Compass (or GNSS/Compass) > Position",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_gps_front.jpg"
+   ]
+  }
+ },
+ {
+  "question": "What battery range does the PM02D power module accept on the Pixhawk 6X?",
+  "type": "spec",
+  "page": "assembly/quick_start_pixhawk6x.md",
+  "key": "2~6S",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 3,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "config/battery.md",
+  "top_title": "Battery Estimation Tuning (Power Setup) > Overview",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/assembly/power_module_cuav_analog.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Where does a Spektrum receiver connect on the Pixhawk 4?",
+  "type": "wiring",
+  "page": "assembly/quick_start_pixhawk4.md",
+  "key": "DSM/SBUS",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "flight_controller/pixhawk4.md",
+  "top_title": "Holybro Pixhawk 4 > Connectors",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pixhawk4/pixhawk4-connectors.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk4/pixhawk4_receiver_sbus.png"
+   ]
+  }
+ },
+ {
+  "question": "Show me what is in the Pix32 v5 box",
+  "type": "figure",
+  "page": "assembly/quick_start_holybro_pix32_v5.md",
+  "key": "Pix32 v5",
+  "bm25": 0,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_holybro_pix32_v5.md",
+  "top_title": "Pix32 v5 Wiring Quick Start > Unboxing",
+  "images": {
+   "learned": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_unboxing_schematics.png"
+   ],
+   "top_passage": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_unboxing_schematics.png"
+   ],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_unboxing_schematics.png"
+   ]
+  }
+ },
+ {
+  "question": "How do I start the gyroscope calibration in QGroundControl?",
+  "type": "procedure",
+  "page": "config/gyroscope.md",
+  "key": "Gyroscope",
+  "bm25": 0,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "config/gyroscope.md",
+  "top_title": "Gyroscope Calibration > Performing the Calibration",
+  "images": {
+   "learned": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_progress_px4.png",
+    "assets/qgc/setup/sensor/gyroscope_calibrate_complete_px4.png"
+   ],
+   "top_passage": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_complete_px4.png",
+    "assets/qgc/setup/sensor/gyroscope_calibrate_progress_px4.png"
+   ],
+   "direct": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_progress_px4.png"
+   ]
+  }
+ },
+ {
+  "question": "Which PWM range is written to the ESCs during ESC calibration?",
+  "type": "spec",
+  "page": "advanced_config/esc_calibration.md",
+  "key": "2000us",
+  "bm25": 0,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "advanced_config/esc_calibration.md",
+  "top_title": "ESC Calibration",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/esc/esc_calibration_step_2.png"
+   ]
+  }
+ },
+ {
+  "question": "How many twists per 30 cm should an I2C cable have?",
+  "type": "spec",
+  "page": "assembly/cable_wiring.md",
+  "key": "10 turns",
+  "bm25": 2,
+  "dense": 6,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "assembly/cable_wiring.md",
+  "top_title": "Cable Wiring Basics > Cable Twisting",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/hardware/cables/can_jst-gh_cable.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_unboxing_schematics.png"
+   ]
+  }
+ },
+ {
+  "question": "Which parameters give the IMU offset from the centre of gravity?",
+  "type": "parameter",
+  "page": "assembly/mount_and_orient_controller.md",
+  "key": "EKF2_IMU_POS_X",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 6,
+  "rerank": 2,
+  "answer_ok": true,
+  "top_page": "advanced_config/advanced_flight_controller_orientation_leveling.md",
+  "top_title": "Advanced Flight Controller Orientation Tuning > Setting Orientation Parameters",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/sensor/fc_orientation_qgc_v2.png"
+   ]
+  }
+ },
+ {
+  "question": "How do I make the drone disarm automatically a few seconds after landing?",
+  "type": "parameter",
+  "page": "advanced_config/land_detector.md",
+  "key": "COM_DISARM_LAND",
+  "bm25": 0,
+  "dense": 1,
+  "hybrid": 0,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "advanced_config/prearm_arm_disarm.md",
+  "top_title": "Arm, Disarm, Prearm Configuration > Auto-Disarming",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/safety/safety_land_mode.png"
+   ]
+  }
+ },
+ {
+  "question": "What is the default hover throttle assumed by the land detector?",
+  "type": "parameter",
+  "page": "advanced_config/land_detector.md",
+  "key": "50%",
+  "bm25": 1,
+  "dense": 6,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/land_detector.md",
+  "top_title": "Land Detector Configuration > Multicopter Configuration",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/safety/safety_land_mode.png"
+   ]
+  }
+ },
+ {
+  "question": "Which parameter limits the flight time before the vehicle returns?",
+  "type": "parameter",
+  "page": "config/safety.md",
+  "key": "COM_FLT_TIME_MAX",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 0,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "config/actuators.md",
+  "top_title": "Actuator Configuration and Testing > Control Surfaces Geometry",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/radio/parameters_radio_channel_mapping.jpg"
+   ]
+  }
+ },
+ {
+  "question": "At what fraction of the maximum flight time does PX4 warn?",
+  "type": "parameter",
+  "page": "config/safety.md",
+  "key": "90%",
+  "bm25": 0,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "config/safety.md",
+  "top_title": "Safety (Failsafe) Configuration > Flight Time Failsafes",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/ecl/gps_glitch_-_velocity_innovations.png"
+   ]
+  }
+ },
+ {
+  "question": "What happens to the outputs when flight termination is triggered?",
+  "type": "procedure",
+  "page": "advanced_config/flight_termination.md",
+  "key": "failsafe values",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 3,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "advanced_config/flight_termination.md",
+  "top_title": "Flight Termination Configuration",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/config/flight_termination_logic_diagram.png"
+   ]
+  }
+ },
+ {
+  "question": "What barometer altitude drop is acceptable at maximum horizontal speed before calibrating static pressure?",
+  "type": "spec",
+  "page": "advanced_config/static_pressure_buildup.md",
+  "key": "2 metres",
+  "bm25": 0,
+  "dense": 4,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/static_pressure_buildup.md",
+  "top_title": "Static Pressure Buildup > Airflow Analysis",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flying/package_drop_mission_example.png"
+   ]
+  }
+ },
+ {
+  "question": "How cold should the board get for the thermal calibration cold soak?",
+  "type": "procedure",
+  "page": "advanced_config/sensor_thermal_calibration.md",
+  "key": "-20C",
+  "bm25": 0,
+  "dense": 5,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "advanced_config/sensor_thermal_calibration.md",
+  "top_title": "Thermal Calibration and Compensation > Test Setup/Best Practice",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/calibration/thermal_calibration_baro.png"
+   ]
+  }
+ },
+ {
+  "question": "Where is the IMU factory calibration data stored?",
+  "type": "spec",
+  "page": "advanced_config/imu_factory_calibration.md",
+  "key": "/fs/mtd_caldata",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 6,
+  "rerank": 1,
+  "answer_ok": false,
+  "top_page": "advanced_config/imu_factory_calibration.md",
+  "top_title": "IMU/Compass Factory Calibration",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_px4.png"
+   ]
+  }
+ },
+ {
+  "question": "Which parameter must be reset to 0 after the IMU factory calibration?",
+  "type": "parameter",
+  "page": "advanced_config/imu_factory_calibration.md",
+  "key": "SYS_FAC_CAL_MODE",
+  "bm25": 0,
+  "dense": 4,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/imu_factory_calibration.md",
+  "top_title": "IMU/Compass Factory Calibration > Performing the Factory Calibration",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_px4.png"
+   ]
+  }
+ },
+ {
+  "question": "Which parameter describes the rotation of the flight controller board?",
+  "type": "parameter",
+  "page": "advanced_config/advanced_flight_controller_orientation_leveling.md",
+  "key": "SENS_BOARD_ROT",
+  "bm25": 0,
+  "dense": 8,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "advanced_config/advanced_flight_controller_orientation_leveling.md",
+  "top_title": "Advanced Flight Controller Orientation Tuning > Setting Orientation Parameters",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/sensor/fc_orientation_qgc_v2.png"
+   ]
+  }
+ },
+ {
+  "question": "How do I log data from boot for compass power compensation?",
+  "type": "parameter",
+  "page": "advanced_config/compass_power_compensation.md",
+  "key": "SDLOG_MODE",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 6,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "advanced_config/compass_power_compensation.md",
+  "top_title": "Compass Power Compensation > How to Compensate the Compass",
+  "images": {
+   "learned": [
+    "assets/advanced_config/line_fit.png"
+   ],
+   "top_passage": [
+    "assets/advanced_config/strap.png"
+   ],
+   "direct": [
+    "assets/advanced_config/corrupted_mag.png"
+   ]
+  }
+ },
+ {
+  "question": "Which port does the NEO3 GPS use on the CUAV Pixhawk V6X?",
+  "type": "wiring",
+  "page": "assembly/quick_start_cuav_pixhawk_v6x.md",
+  "key": "GPS1",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 9,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_cuav_pixhawk_v6x.md",
+  "top_title": "CUAV Pixhawk V6X Wiring Quick Start > GPS + Compass + Buzzer + Safety Switch + LED",
+  "images": {
+   "learned": [
+    "assets/flight_controller/cuav_pixhawk_v6x/quickstart_03.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/cuav_pixhawk_v6x/quickstart_03.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/cuav_pixhawk_v6x/quickstart_03.jpg"
+   ]
+  }
+ },
+ {
+  "question": "During autotuning, how long should the roll manoeuvre take?",
+  "type": "procedure",
+  "page": "config/_autotune.md",
+  "key": "3 seconds",
+  "bm25": 7,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "config/_autotune.md",
+  "top_title": "Auto-tuning (Fixed-Wing) > How long does autotuning take?",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/sensor/sensor_orientation_selector_values.jpg"
+   ]
+  }
+ },
+ {
+  "question": "At what height should I hover before starting the autotune?",
+  "type": "procedure",
+  "page": "config/_autotune.md",
+  "key": "1m",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "config/_autotune.md",
+  "top_title": "Auto-tuning (Fixed-Wing) > Auto-tuning Procedure",
+  "images": {
+   "learned": [
+    "assets/qgc/setup/autotune/autotune.png"
+   ],
+   "top_passage": [
+    "assets/qgc/setup/autotune/autotune.png"
+   ],
+   "direct": [
+    "assets/qgc/setup/autotune/autotune.png"
+   ]
+  }
+ },
+ {
+  "question": "Does the accelerometer calibration need perfect 90 degree orientations?",
+  "type": "procedure",
+  "page": "config/accelerometer.md",
+  "key": "least squares",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 2,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "config/accelerometer.md",
+  "top_title": "Accelerometer Calibration > Performing the Calibration",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/qgc/setup/sensor/accelerometer_positions_px4.png"
+   ],
+   "direct": [
+    "assets/qgc/setup/sensor/gyroscope_calibrate_progress_px4.png"
+   ]
+  }
+ },
+ {
+  "question": "What power module and GPS come with the Pix32 v5?",
+  "type": "spec",
+  "page": "assembly/quick_start_holybro_pix32_v5.md",
+  "key": "PM02 V3",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 1,
+  "answer_ok": true,
+  "top_page": "flight_controller/holybro_pix32_v5.md",
+  "top_title": "Holybro Pix32 v5 > Assembly/Setup",
+  "images": {
+   "learned": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_unboxing_schematics.png"
+   ],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_connection_power.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which Cube versions are only manufacturer supported?",
+  "type": "spec",
+  "page": "assembly/quick_start_cube.md",
+  "key": "Manufacturer Supported",
+  "bm25": 0,
+  "dense": 9,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_cube.md",
+  "top_title": "Cube Wiring Quick Start",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/cube/cube_black_hero.png",
+    "assets/flight_controller/cube/orange/cube_orange_hero.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/cube/orangeplus/cubepilot_cube_orangeplus_standard_set.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How do I turn on terrain following in altitude and position modes?",
+  "type": "parameter",
+  "page": "flying/terrain_following_holding.md",
+  "key": "MPC_ALT_MODE",
+  "bm25": 2,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "flying/terrain_following_holding.md",
+  "top_title": "Terrain Following/Holding > Terrain Hold",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flying/planning_mission.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which PX4 version does ModalAI maintain a branch of for Flight Core?",
+  "type": "spec",
+  "page": "flight_controller/modalai_fc_v1.md",
+  "key": "v1.11",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 6,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/modalai_fc_v1.md",
+  "top_title": "ModalAI Flight Core v1 > PX4 Firmware Compatibility",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/modalai/fc_v1/orientation.png"
+   ]
+  }
+ },
+ {
+  "question": "Show me the power setup screen used to configure the battery",
+  "type": "figure",
+  "page": "config/battery.md",
+  "key": "BAT1_",
+  "bm25": 6,
+  "dense": null,
+  "hybrid": null,
+  "rerank": 4,
+  "answer_ok": false,
+  "top_page": "config/battery.md",
+  "top_title": "Battery Estimation Tuning (Power Setup) > Voltage-based Estimation with Load Compensation",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/esc/qgc_esc_calibration.png"
+   ]
+  }
+ },
+ {
+  "question": "The LED is green but the drone still refuses to arm. Why?",
+  "type": "fault",
+  "page": "getting_started/led_meanings.md",
+  "key": "preflight checks",
+  "bm25": 2,
+  "dense": null,
+  "hybrid": 4,
+  "rerank": 4,
+  "answer_ok": false,
+  "top_page": "getting_started/led_meanings.md",
+  "top_title": "LED Meanings (Pixhawk Series) > UI LED",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/nxp_rddrone_fmuk66/hovergames_drone_14042019_xl001.jpg"
+   ]
+  }
+ },
+ {
+  "question": "My 3DR Pixhawk clone has different connectors. Which ones?",
+  "type": "fault",
+  "page": "flight_controller/pixhawk.md",
+  "key": "Molex picoblade",
+  "bm25": 1,
+  "dense": 6,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk.md",
+  "top_title": "Where to Buy > Connections",
+  "images": {
+   "learned": [
+    "assets/hardware/hardware-pixhawk.png"
+   ],
+   "top_passage": [
+    "assets/flight_controller/pixhawk1/pixhawk_connectors.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk_mini/pixhawk_mini_port_main_out.png"
+   ]
+  }
+ },
+ {
+  "question": "Where does the Dronecode probe connect on the original Pixhawk?",
+  "type": "wiring",
+  "page": "flight_controller/pixhawk.md",
+  "key": "SERIAL4/5",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk.md",
+  "top_title": "Where to Buy > Console Port",
+  "images": {
+   "learned": [
+    "assets/flight_controller/pixhawk1/dronecode_probe.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/pixhawk1/dronecode_probe.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk1/dronecode_probe.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which parameter selects RC or joystick input?",
+  "type": "parameter",
+  "page": "getting_started/rc_transmitter_receiver.md",
+  "key": "COM_RC_IN_MODE",
+  "bm25": 1,
+  "dense": 4,
+  "hybrid": 2,
+  "rerank": 1,
+  "answer_ok": true,
+  "top_page": "config/joystick.md",
+  "top_title": "Joystick Setup > Enabling PX4 Joystick Support",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/peripherals/joystick/micronav.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which Betaflight target tells me an Omnibus F4 board will run PX4?",
+  "type": "spec",
+  "page": "flight_controller/omnibus_f4_sd.md",
+  "key": "OMNIBUSF4SD",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 5,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/omnibus_f4_sd.md",
+  "top_title": "Omnibus F4 SD > Where to Buy",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/omnibus_f4_sd/betaflight_configurator.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How many PWM outputs does the AIRLink have?",
+  "type": "spec",
+  "page": "flight_controller/airlink.md",
+  "key": "16 PWM",
+  "bm25": 4,
+  "dense": null,
+  "hybrid": 2,
+  "rerank": 1,
+  "answer_ok": false,
+  "top_page": "getting_started/px4_basic_concepts.md",
+  "top_title": "Basic Concepts > Outputs: Motors, Servos, Actuators",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/airlink/airlink-core.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How much does the AIRLink weigh?",
+  "type": "spec",
+  "page": "flight_controller/airlink.md",
+  "key": "89 g",
+  "bm25": 3,
+  "dense": 5,
+  "hybrid": 1,
+  "rerank": 4,
+  "answer_ok": false,
+  "top_page": "flight_controller/airlink.md",
+  "top_title": "Serial Mapping > Useful Links",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/airlink/airlink-core.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which UART devices should I see on a PilotPi under Raspberry Pi OS?",
+  "type": "procedure",
+  "page": "flight_controller/raspberry_pi_pilotpi_rpios.md",
+  "key": "/dev/ttySC0",
+  "bm25": null,
+  "dense": 5,
+  "hybrid": 3,
+  "rerank": 2,
+  "answer_ok": false,
+  "top_page": "flight_controller/raspberry_pi_pilotpi_rpios.md",
+  "top_title": "PilotPi with Raspberry Pi OS > OS Image",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/hardware/hardware-rpi2.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How should the Pixhawk 4 Mini be mounted on the frame?",
+  "type": "procedure",
+  "page": "assembly/quick_start_pixhawk4_mini.md",
+  "key": "vibration-damping foam",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_pixhawk4_mini.md",
+  "top_title": "_Pixhawk 4 Mini_ Wiring Quick Start > Mount and Orient Controller",
+  "images": {
+   "learned": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_gps.png",
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_orientation.png"
+   ],
+   "top_passage": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_orientation.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_telemetry.png"
+   ]
+  }
+ },
+ {
+  "question": "From which hardware revision does PX4 run on the Kakute H7 mini?",
+  "type": "spec",
+  "page": "flight_controller/kakuteh7mini.md",
+  "key": "v1.3",
+  "bm25": 0,
+  "dense": 2,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "flight_controller/kakuteh7mini.md",
+  "top_title": "Holybro Kakute H7 mini",
+  "images": {
+   "learned": [
+    "assets/flight_controller/kakuteh7mini/kakuteh7mini_top.jpg",
+    "assets/flight_controller/kakuteh7mini/kakuteh7mini_bottom.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/kakuteh7mini/kakuteh7mini_bottom.jpg",
+    "assets/flight_controller/kakuteh7mini/kakuteh7mini_top.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/kakuteh7/kakuteh7.png"
+   ]
+  }
+ },
+ {
+  "question": "Which Pixhawk version is the Holybro pix32 based on?",
+  "type": "spec",
+  "page": "flight_controller/holybro_pix32.md",
+  "key": "2.4.6",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "flight_controller/holybro_pix32.md",
+  "top_title": "Holybro pix32 Flight Controller (Discontinued)",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/holybro_pix32/pix32_hero.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_family.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How are the flight controller and carrier board of the Pix32 v6 connected?",
+  "type": "spec",
+  "page": "flight_controller/holybro_pix32_v6.md",
+  "key": "100 pin",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 4,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/holybro_pix32_v6.md",
+  "top_title": "Holybro Pix32 v6",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pix32v6/pix32v6_fc_only.png"
+   ],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_family.jpg"
+   ]
+  }
+ },
+ {
+  "question": "On the Cube Black the CAN ports seem swapped. Is that known?",
+  "type": "fault",
+  "page": "flight_controller/pixhawk-2.md",
+  "key": "flipped",
+  "bm25": 4,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 3,
+  "answer_ok": false,
+  "top_page": "flight_controller/pixhawk-2.md",
+  "top_title": "Hex Cube Black Flight Controller",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/cube/cube_black_hero.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk4/pixhawk4_debug_port.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which processor does the Cube Orange+ use?",
+  "type": "spec",
+  "page": "flight_controller/cubepilot_cube_orangeplus.md",
+  "key": "STM32H757ZI",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "flight_controller/cubepilot_cube_orangeplus.md",
+  "top_title": "CubePilot Cube Orange+ Flight Controller",
+  "images": {
+   "learned": [
+    "assets/flight_controller/cube/orangeplus/cubepilot_cube_orangeplus_standard_set.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/cube/orangeplus/cubepilot_cube_orangeplus_standard_set.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/cube/orangeplus/cubepilot_cube_orangeplus_standard_set.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Why are some parameters missing on FMUv2 firmware?",
+  "type": "fault",
+  "page": "advanced_config/parameters.md",
+  "key": "1MB",
+  "bm25": 1,
+  "dense": 4,
+  "hybrid": 1,
+  "rerank": 1,
+  "answer_ok": false,
+  "top_page": "flight_controller/pixhawk_series.md",
+  "top_title": "Pixhawk Series > FMU Versions",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/qgc/setup/firmware/bootloader_update.jpg"
+   ]
+  }
+ },
+ {
+  "question": "What size of racer does the Pixhawk 4 Mini fit in?",
+  "type": "spec",
+  "page": "flight_controller/pixhawk4_mini.md",
+  "key": "250mm",
+  "bm25": 0,
+  "dense": 1,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk4_mini.md",
+  "top_title": "Holybro Pixhawk 4 Mini (Discontinued)",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_iso_1.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk4mini/pixhawk4mini_telemetry.png"
+   ]
+  }
+ },
+ {
+  "question": "What must be flashed before installing PX4 on the Kakute H7?",
+  "type": "procedure",
+  "page": "flight_controller/kakuteh7.md",
+  "key": "bootloader",
+  "bm25": 0,
+  "dense": 2,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/kakuteh7.md",
+  "top_title": "Holybro Kakute H7 > PX4 Bootloader Update",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/kakuteh7/kakuteh7.png"
+   ]
+  }
+ },
+ {
+  "question": "How much does the VOXL 2 weigh?",
+  "type": "spec",
+  "page": "flight_controller/modalai_voxl_2.md",
+  "key": "16 grams",
+  "bm25": 7,
+  "dense": null,
+  "hybrid": null,
+  "rerank": 8,
+  "answer_ok": false,
+  "top_page": "flight_controller/modalai_voxl_2.md",
+  "top_title": "ModalAI VOXL 2 > Availability",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/modalai/voxl_2/voxl-2-hero.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How is the Pixhawk 5X attached to the frame?",
+  "type": "procedure",
+  "page": "assembly/quick_start_pixhawk5x.md",
+  "key": "double side tape",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 2,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/quick_start_pixhawk5x.md",
+  "top_title": "Holybro Pixhawk 5x Wiring Quick Start > Mount and Orient Controller",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_vehicle_front1.jpg"
+   ],
+   "direct": [
+    "assets/hardware/hardware-mindracer-conn.png"
+   ]
+  }
+ },
+ {
+  "question": "Show the wiring overview of the Pixhawk 5X",
+  "type": "figure",
+  "page": "assembly/quick_start_pixhawk5x.md",
+  "key": "Wiring Chart",
+  "bm25": 2,
+  "dense": 3,
+  "hybrid": 2,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "assembly/quick_start_pixhawk5x.md",
+  "top_title": "Holybro Pixhawk 5x Wiring Quick Start > Wiring Chart Overview",
+  "images": {
+   "learned": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_wiring_diagram.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_wiring_diagram.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_sd_slot.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Show me the pinout of the Durandal top connectors",
+  "type": "figure",
+  "page": "flight_controller/durandal.md",
+  "key": "Durandal",
+  "bm25": 0,
+  "dense": 0,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "flight_controller/durandal.md",
+  "top_title": "Holybro Durandal > Top",
+  "images": {
+   "learned": [
+    "assets/flight_controller/durandal/durandal_pinouts_top.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/durandal/durandal_pinouts_top.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/durandal/durandal_pinouts_top.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Where is the debug port on the CUAV V5 nano?",
+  "type": "wiring",
+  "page": "flight_controller/cuav_v5_nano.md",
+  "key": "DSU7",
+  "bm25": 4,
+  "dense": null,
+  "hybrid": 5,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/cuav_v5_nano.md",
+  "top_title": "CUAV V5 nano Autopilot > Debug Port",
+  "images": {
+   "learned": [
+    "assets/flight_controller/cuav_v5_nano/debug_port_dsu7.jpg",
+    "assets/flight_controller/cuav_v5_nano/cuav_nano_debug_cable.jpg"
+   ],
+   "top_passage": [
+    "assets/flight_controller/cuav_v5_nano/cuav_nano_debug_cable.jpg"
+   ],
+   "direct": [
+    "assets/flight_controller/cuav_v5_nano/cuav_nano_debug_cable.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Which channel selects the flight mode on a single-channel setup?",
+  "type": "procedure",
+  "page": "config/flight_mode.md",
+  "key": "Mode channel",
+  "bm25": 7,
+  "dense": null,
+  "hybrid": 7,
+  "rerank": 6,
+  "answer_ok": false,
+  "top_page": "config/flight_mode.md",
+  "top_title": "Flight Mode Configuration > Flight Mode Selection",
+  "images": {
+   "learned": [
+    "assets/qgc/setup/flight_modes/flight_modes_single_channel.jpg"
+   ],
+   "top_passage": [
+    "assets/qgc/setup/flight_modes/flight_modes_single_channel.jpg"
+   ],
+   "direct": [
+    "assets/qgc/setup/flight_modes/flight_modes_single_channel.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How do I pick a generic hexarotor X airframe?",
+  "type": "figure",
+  "page": "config/airframe.md",
+  "key": "airframe",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": false,
+  "top_page": "config/airframe.md",
+  "top_title": "Vehicle (Frame) Selection > Set the Frame",
+  "images": {
+   "learned": [
+    "assets/qgc/setup/airframe/airframe_px4.jpg"
+   ],
+   "top_passage": [
+    "assets/qgc/setup/airframe/airframe_px4.jpg",
+    "assets/qgc/setup/airframe/airframe_px4_apply_prompt.jpg"
+   ],
+   "direct": [
+    "assets/qgc/setup/airframe/airframe_px4.jpg"
+   ]
+  }
+ },
+ {
+  "question": "In the actuator example, which outputs drive the four motors and with which ESC protocol?",
+  "type": "spec",
+  "page": "config/actuators.md",
+  "key": "DShot1200",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": 4,
+  "answer_ok": false,
+  "top_page": "advanced_config/esc_calibration.md",
+  "top_title": "ESC Calibration > Steps",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/config/actuators/identify_motors_button.png"
+   ]
+  }
+ },
+ {
+  "question": "Which connector type does the original 3DR Pixhawk use?",
+  "type": "spec",
+  "page": "flight_controller/pixhawk.md",
+  "key": "DF13",
+  "bm25": 3,
+  "dense": null,
+  "hybrid": null,
+  "rerank": 1,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk.md",
+  "top_title": "Where to Buy",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/pixhawk1/pixhawk_3dr_buzzer_and_safety_switch.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Where do I connect the airspeed sensor on a fixed-wing with a Pixhawk 6C?",
+  "type": "wiring",
+  "page": "assembly/_assembly.md",
+  "key": "airspeed",
+  "bm25": 0,
+  "dense": null,
+  "hybrid": 3,
+  "rerank": 3,
+  "answer_ok": true,
+  "top_page": "config/airspeed.md",
+  "top_title": "Airspeed Calibration > Performing the Calibration",
+  "images": {
+   "learned": [],
+   "top_passage": [
+    "assets/qgc/setup/sensor/sensor_airspeed.jpg"
+   ],
+   "direct": [
+    "assets/assembly/airspeed_sensor_i2c.png"
+   ]
+  }
+ },
+ {
+  "question": "How do I connect the GPS on a VTOL?",
+  "type": "wiring",
+  "page": "assembly/_assembly.md",
+  "key": "GPS",
+  "bm25": 0,
+  "dense": 7,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "assembly/_assembly.md",
+  "top_title": "Assembling a VTOL",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/pixhawk1/pixhawk_wiring_overview.jpg"
+   ]
+  }
+ },
+ {
+  "question": "Show me the exploded view of the Pixhawk 6X",
+  "type": "figure",
+  "page": "flight_controller/pixhawk6x.md",
+  "key": "Pixhawk 6X",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 1,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/pixhawk6x.md",
+  "top_title": "Holybro Pixhawk 6X > Pixhawk 6X (Rev 3)",
+  "images": {
+   "learned": [
+    "assets/flight_controller/pixhawk6x/pixhawk6x_hero_upright.png",
+    "assets/flight_controller/pixhawk6x/pixhawk6x_exploded_diagram.png"
+   ],
+   "top_passage": [
+    "assets/flight_controller/pixhawk6x/pixhawk6x_exploded_diagram.png",
+    "assets/flight_controller/pixhawk6x/pixhawk6x_hero_upright.png"
+   ],
+   "direct": [
+    "assets/flight_controller/pixhawk5x/pixhawk5x_exploded_diagram.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How do I flash the FMUv6X-RT bootloader without a debug probe?",
+  "type": "procedure",
+  "page": "advanced_config/bootloader_update_v6xrt.md",
+  "key": "Secure Provisioning",
+  "bm25": null,
+  "dense": null,
+  "hybrid": null,
+  "rerank": null,
+  "answer_ok": false,
+  "top_page": "advanced_config/bootloader_update_v6xrt.md",
+  "top_title": "Bootloader Update Pixhawk V6X-RT via USB",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/advanced_config/bootloader_6xrt/bootloader_update_v6xrt_step1.png"
+   ]
+  }
+ },
+ {
+  "question": "Which OS image should I use on a Raspberry Pi with Navio 2?",
+  "type": "procedure",
+  "page": "flight_controller/raspberry_pi_navio2.md",
+  "key": "Emlid",
+  "bm25": 0,
+  "dense": 1,
+  "hybrid": 0,
+  "rerank": 0,
+  "answer_ok": true,
+  "top_page": "flight_controller/raspberry_pi_navio2.md",
+  "top_title": "Raspberry Pi 2/3/4 Navio2 Autopilot > OS Image",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/hardware/hardware-rpi2.jpg"
+   ]
+  }
+ },
+ {
+  "question": "How do I connect the telemetry radio on a multicopter?",
+  "type": "wiring",
+  "page": "assembly/_assembly.md",
+  "key": "telemetry",
+  "bm25": 1,
+  "dense": null,
+  "hybrid": 2,
+  "rerank": 1,
+  "answer_ok": true,
+  "top_page": "getting_started/rc_transmitter_receiver.md",
+  "top_title": "Radio Control Systems > Related Topics",
+  "images": {
+   "learned": [],
+   "top_passage": [],
+   "direct": [
+    "assets/flight_controller/holybro_pix32_v5/pix32_v5_wiring_overview.jpg"
+   ]
+  }
+ }
+]

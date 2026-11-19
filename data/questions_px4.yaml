@@ -1,0 +1,72 @@
+# Questions written by hand while reading the PX4 User Guide (commit 2fa62338). Each one names the page that holds
+# the answer, a short string the right passage must contain ("key"), and, when a picture helps, the image (alt text).
+- {q: "Which serial device does TELEM1 map to on the Holybro Pixhawk 6X?", page: flight_controller/pixhawk6x.md, key: /dev/ttyS6, type: spec}
+- {q: "On a Pixhawk 4, where do I plug the telemetry radio?", page: assembly/quick_start_pixhawk4.md, key: TELEM1, fig: "Pixhawk 4/Telemetry Radio", type: wiring}
+- {q: "The EKF reports height estimate divergence. What is the most likely cause?", page: advanced_config/tuning_the_ecl_ekf.md, key: clipping and/or aliasing, type: fault}
+- {q: "How long must the arming button be held down to arm?", page: advanced_config/prearm_arm_disarm.md, key: one second, type: procedure}
+- {q: "What is the maximum input voltage of the Pixhawk Mini?", page: flight_controller/pixhawk_mini.md, key: 45V, type: spec}
+- {q: "How do I build the bootloader for an FMUv6X board?", page: advanced_config/bootloader_update.md, key: make px4_fmu-v6x_bootloader, type: procedure}
+- {q: "Which make target builds the firmware for the Cube Orange?", page: flight_controller/cubepilot_cube_orange.md, key: make cubepilot_cubeorange, type: procedure}
+- {q: "Which IMU is fitted on the Kakute H7 v2?", page: flight_controller/kakuteh7v2.md, key: BMI270, type: spec}
+- {q: "Which GPS module is recommended for the CUAV V5 nano?", page: assembly/quick_start_cuav_v5_nano.md, key: Neo v2 GPS, type: wiring}
+- {q: "The GPS compass is mounted rotated. Which rotations can PX4 detect automatically?", page: assembly/mount_gps_compass.md, key: multiples of 45, type: procedure}
+- {q: "Which parameters set the GPS antenna position relative to the centre of gravity?", page: assembly/mount_gps_compass.md, key: EKF2_GPS_POS_X, type: parameter}
+- {q: "What battery range does the PM02D power module accept on the Pixhawk 6X?", page: assembly/quick_start_pixhawk6x.md, key: 2~6S, type: spec}
+- {q: "Where does a Spektrum receiver connect on the Pixhawk 4?", page: assembly/quick_start_pixhawk4.md, key: DSM/SBUS, fig: "Radio port for Spektrum", type: wiring}
+- {q: "Show me what is in the Pix32 v5 box", page: assembly/quick_start_holybro_pix32_v5.md, key: Pix32 v5, fig: "Pix32 v5 Box", type: figure}
+- {q: "How do I start the gyroscope calibration in QGroundControl?", page: config/gyroscope.md, key: Gyroscope, fig: "Select Gyroscope calibration", type: procedure}
+- {q: "Which PWM range is written to the ESCs during ESC calibration?", page: advanced_config/esc_calibration.md, key: 2000us, type: spec}
+- {q: "How many twists per 30 cm should an I2C cable have?", page: assembly/cable_wiring.md, key: 10 turns, type: spec}
+- {q: "Which parameters give the IMU offset from the centre of gravity?", page: assembly/mount_and_orient_controller.md, key: EKF2_IMU_POS_X, type: parameter}
+- {q: "How do I make the drone disarm automatically a few seconds after landing?", page: advanced_config/land_detector.md, key: COM_DISARM_LAND, type: parameter}
+- {q: "What is the default hover throttle assumed by the land detector?", page: advanced_config/land_detector.md, key: 50%, type: parameter}
+- {q: "Which parameter limits the flight time before the vehicle returns?", page: config/safety.md, key: COM_FLT_TIME_MAX, type: parameter}
+- {q: "At what fraction of the maximum flight time does PX4 warn?", page: config/safety.md, key: 90%, type: parameter}
+- {q: "What happens to the outputs when flight termination is triggered?", page: advanced_config/flight_termination.md, key: failsafe values, type: procedure}
+- {q: "What barometer altitude drop is acceptable at maximum horizontal speed before calibrating static pressure?", page: advanced_config/static_pressure_buildup.md, key: 2 metres, type: spec}
+- {q: "How cold should the board get for the thermal calibration cold soak?", page: advanced_config/sensor_thermal_calibration.md, key: -20C, type: procedure}
+- {q: "Where is the IMU factory calibration data stored?", page: advanced_config/imu_factory_calibration.md, key: /fs/mtd_caldata, type: spec}
+- {q: "Which parameter must be reset to 0 after the IMU factory calibration?", page: advanced_config/imu_factory_calibration.md, key: SYS_FAC_CAL_MODE, type: parameter}
+- {q: "Which parameter describes the rotation of the flight controller board?", page: advanced_config/advanced_flight_controller_orientation_leveling.md, key: SENS_BOARD_ROT, type: parameter}
+- {q: "How do I log data from boot for compass power compensation?", page: advanced_config/compass_power_compensation.md, key: SDLOG_MODE, type: parameter}
+- {q: "Which port does the NEO3 GPS use on the CUAV Pixhawk V6X?", page: assembly/quick_start_cuav_pixhawk_v6x.md, key: GPS1, type: wiring}
+- {q: "During autotuning, how long should the roll manoeuvre take?", page: config/_autotune.md, key: 3 seconds, type: procedure}
+- {q: "At what height should I hover before starting the autotune?", page: config/_autotune.md, key: 1m, type: procedure}
+- {q: "Does the accelerometer calibration need perfect 90 degree orientations?", page: config/accelerometer.md, key: least squares, type: procedure}
+- {q: "What power module and GPS come with the Pix32 v5?", page: assembly/quick_start_holybro_pix32_v5.md, key: PM02 V3, type: spec}
+- {q: "Which Cube versions are only manufacturer supported?", page: assembly/quick_start_cube.md, key: Manufacturer Supported, type: spec}
+- {q: "How do I turn on terrain following in altitude and position modes?", page: flying/terrain_following_holding.md, key: MPC_ALT_MODE, type: parameter}
+- {q: "Which PX4 version does ModalAI maintain a branch of for Flight Core?", page: flight_controller/modalai_fc_v1.md, key: v1.11, type: spec}
+- {q: "Show me the power setup screen used to configure the battery", page: config/battery.md, key: BAT1_, fig: "QGC Power Setup", type: figure}
+- {q: "The LED is green but the drone still refuses to arm. Why?", page: getting_started/led_meanings.md, key: preflight checks, type: fault}
+- {q: "My 3DR Pixhawk clone has different connectors. Which ones?", page: flight_controller/pixhawk.md, key: Molex picoblade, type: fault}
+- {q: "Where does the Dronecode probe connect on the original Pixhawk?", page: flight_controller/pixhawk.md, key: SERIAL4/5, fig: "Dronecode probe", type: wiring}
+- {q: "Which parameter selects RC or joystick input?", page: getting_started/rc_transmitter_receiver.md, key: COM_RC_IN_MODE, type: parameter}
+- {q: "Which Betaflight target tells me an Omnibus F4 board will run PX4?", page: flight_controller/omnibus_f4_sd.md, key: OMNIBUSF4SD, type: spec}
+- {q: "How many PWM outputs does the AIRLink have?", page: flight_controller/airlink.md, key: 16 PWM, type: spec}
+- {q: "How much does the AIRLink weigh?", page: flight_controller/airlink.md, key: 89 g, type: spec}
+- {q: "Which UART devices should I see on a PilotPi under Raspberry Pi OS?", page: flight_controller/raspberry_pi_pilotpi_rpios.md, key: /dev/ttySC0, type: procedure}
+- {q: "How should the Pixhawk 4 Mini be mounted on the frame?", page: assembly/quick_start_pixhawk4_mini.md, key: vibration-damping foam, fig: "Pixhawk 4 Mini* Orientation", type: procedure}
+- {q: "From which hardware revision does PX4 run on the Kakute H7 mini?", page: flight_controller/kakuteh7mini.md, key: v1.3, type: spec}
+- {q: "Which Pixhawk version is the Holybro pix32 based on?", page: flight_controller/holybro_pix32.md, key: 2.4.6, type: spec}
+- {q: "How are the flight controller and carrier board of the Pix32 v6 connected?", page: flight_controller/holybro_pix32_v6.md, key: 100 pin, type: spec}
+- {q: "On the Cube Black the CAN ports seem swapped. Is that known?", page: flight_controller/pixhawk-2.md, key: flipped, type: fault}
+- {q: "Which processor does the Cube Orange+ use?", page: flight_controller/cubepilot_cube_orangeplus.md, key: STM32H757ZI, type: spec}
+- {q: "Why are some parameters missing on FMUv2 firmware?", page: advanced_config/parameters.md, key: 1MB, type: fault}
+- {q: "What size of racer does the Pixhawk 4 Mini fit in?", page: flight_controller/pixhawk4_mini.md, key: 250mm, type: spec}
+- {q: "What must be flashed before installing PX4 on the Kakute H7?", page: flight_controller/kakuteh7.md, key: bootloader, type: procedure}
+- {q: "How much does the VOXL 2 weigh?", page: flight_controller/modalai_voxl_2.md, key: 16 grams, type: spec}
+- {q: "How is the Pixhawk 5X attached to the frame?", page: assembly/quick_start_pixhawk5x.md, key: double side tape, type: procedure}
+- {q: "Show the wiring overview of the Pixhawk 5X", page: assembly/quick_start_pixhawk5x.md, key: Wiring Chart, fig: "Pixhawk 5x Wiring Overview", type: figure}
+- {q: "Show me the pinout of the Durandal top connectors", page: flight_controller/durandal.md, key: Durandal, fig: "Durandal - Top Pinouts", type: figure}
+- {q: "Where is the debug port on the CUAV V5 nano?", page: flight_controller/cuav_v5_nano.md, key: DSU7, fig: "Debug port (DSU7)", type: wiring}
+- {q: "Which channel selects the flight mode on a single-channel setup?", page: config/flight_mode.md, key: Mode channel, fig: "Flight modes single-channel", type: procedure}
+- {q: "How do I pick a generic hexarotor X airframe?", page: config/airframe.md, key: airframe, fig: "Selecting generic hexarotor X frame", type: figure}
+- {q: "In the actuator example, which outputs drive the four motors and with which ESC protocol?", page: config/actuators.md, key: DShot1200, type: spec}
+- {q: "Which connector type does the original 3DR Pixhawk use?", page: flight_controller/pixhawk.md, key: DF13, fig: "Pixhawk Connectors", type: spec}
+- {q: "Where do I connect the airspeed sensor on a fixed-wing with a Pixhawk 6C?", page: assembly/_assembly.md, key: airspeed, fig: "Airspeed sensor connected to Pixhawk 6c", type: wiring}
+- {q: "How do I connect the GPS on a VTOL?", page: assembly/_assembly.md, key: GPS, fig: "GPS Connections", type: wiring}
+- {q: "Show me the exploded view of the Pixhawk 6X", page: flight_controller/pixhawk6x.md, key: Pixhawk 6X, fig: "exploded", type: figure}
+- {q: "How do I flash the FMUv6X-RT bootloader without a debug probe?", page: advanced_config/bootloader_update_v6xrt.md, key: Secure Provisioning, fig: "Secure provisioning - Step 1", type: procedure}
+- {q: "Which OS image should I use on a Raspberry Pi with Navio 2?", page: flight_controller/raspberry_pi_navio2.md, key: Emlid, type: procedure}
+- {q: "How do I connect the telemetry radio on a multicopter?", page: assembly/_assembly.md, key: telemetry, fig: "Telemetry Connections", type: wiring}

@@ -1,0 +1,158 @@
+{
+ "corpus": {
+  "pages": 141,
+  "chunks": 2100,
+  "figures": 446,
+  "figures_with_ocr_text": 400,
+  "words": 124341
+ },
+ "protocol": "5-fold cross-validation grouped by page, every question tested once",
+ "n_questions": 70,
+ "retrieval": {
+  "bm25": {
+   "recall_at_1": 0.486,
+   "recall_at_1_ci95": [
+    0.372,
+    0.6
+   ],
+   "recall_at_5": 0.814,
+   "mrr_at_10": 0.63
+  },
+  "dense": {
+   "recall_at_1": 0.086,
+   "recall_at_1_ci95": [
+    0.04,
+    0.175
+   ],
+   "recall_at_5": 0.243,
+   "mrr_at_10": 0.161
+  },
+  "hybrid": {
+   "recall_at_1": 0.286,
+   "recall_at_1_ci95": [
+    0.193,
+    0.401
+   ],
+   "recall_at_5": 0.671,
+   "mrr_at_10": 0.461
+  },
+  "rerank": {
+   "recall_at_1": 0.571,
+   "recall_at_1_ci95": [
+    0.455,
+    0.681
+   ],
+   "recall_at_5": 0.886,
+   "mrr_at_10": 0.689
+  }
+ },
+ "images": {
+  "top_passage": {
+   "precision": 0.242,
+   "recall": 0.444,
+   "images_per_answer": 0.47,
+   "questions_with_a_figure": 18
+  },
+  "direct": {
+   "precision": 0.129,
+   "recall": 0.5,
+   "images_per_answer": 1.0,
+   "questions_with_a_figure": 18
+  },
+  "learned": {
+   "precision": 0.409,
+   "recall": 0.5,
+   "images_per_answer": 0.31,
+   "questions_with_a_figure": 18
+  }
+ },
+ "answer_sentence_contains_key": {
+  "rate": 0.5,
+  "ci95": [
+   0.386,
+   0.614
+  ]
+ },
+ "thresholds": [
+  0.3,
+  0.15,
+  0.3,
+  0.2,
+  0.2
+ ],
+ "by_type": {
+  "fault": {
+   "n": 5,
+   "bm25_r1": 0.2,
+   "rerank_r1": 0.4,
+   "answer": 0.4
+  },
+  "figure": {
+   "n": 6,
+   "bm25_r1": 0.5,
+   "rerank_r1": 0.833,
+   "answer": 0.333
+  },
+  "parameter": {
+   "n": 11,
+   "bm25_r1": 0.364,
+   "rerank_r1": 0.636,
+   "answer": 0.636
+  },
+  "procedure": {
+   "n": 17,
+   "bm25_r1": 0.588,
+   "rerank_r1": 0.647,
+   "answer": 0.471
+  },
+  "spec": {
+   "n": 22,
+   "bm25_r1": 0.545,
+   "rerank_r1": 0.5,
+   "answer": 0.409
+  },
+  "wiring": {
+   "n": 9,
+   "bm25_r1": 0.444,
+   "rerank_r1": 0.444,
+   "answer": 0.778
+  }
+ },
+ "other_fold_seeds": [
+  {
+   "rerank_r1": 0.629,
+   "img_precision": 0.421,
+   "img_recall": 0.444
+  },
+  {
+   "rerank_r1": 0.6,
+   "img_precision": 0.4,
+   "img_recall": 0.444
+  },
+  {
+   "rerank_r1": 0.629,
+   "img_precision": 0.321,
+   "img_recall": 0.5
+  },
+  {
+   "rerank_r1": 0.6,
+   "img_precision": 0.409,
+   "img_recall": 0.5
+  }
+ ],
+ "ablation_no_context_headers": {
+  "bm25_r1": 0.457,
+  "rerank_r1": 0.486,
+  "answer": 0.429
+ },
+ "latency": {
+  "text_only": {
+   "p50_ms": 6.6,
+   "p95_ms": 9.0
+  },
+  "with_images": {
+   "p50_ms": 11.2,
+   "p95_ms": 16.5
+  }
+ }
+}
